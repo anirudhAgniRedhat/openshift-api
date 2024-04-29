@@ -23,6 +23,30 @@
                         "name": "ClusterAPIInstall"
                     },
                     {
+                        "name": "ClusterAPIInstallAWS"
+                    },
+                    {
+                        "name": "ClusterAPIInstallAzure"
+                    },
+                    {
+                        "name": "ClusterAPIInstallGCP"
+                    },
+                    {
+                        "name": "ClusterAPIInstallIBMCloud"
+                    },
+                    {
+                        "name": "ClusterAPIInstallNutanix"
+                    },
+                    {
+                        "name": "ClusterAPIInstallOpenStack"
+                    },
+                    {
+                        "name": "ClusterAPIInstallPowerVS"
+                    },
+                    {
+                        "name": "ClusterAPIInstallVSphere"
+                    },
+                    {
                         "name": "DNSNameResolver"
                     },
                     {
@@ -84,6 +108,9 @@
                     },
                     {
                         "name": "MetricsCollectionProfiles"
+                    },
+                    {
+                        "name": "MetricsServer"
                     },
                     {
                         "name": "MixedCPUsAllocation"
@@ -179,9 +206,6 @@
                     },
                     {
                         "name": "KMSv1"
-                    },
-                    {
-                        "name": "MetricsServer"
                     },
                     {
                         "name": "NetworkLiveMigration"
