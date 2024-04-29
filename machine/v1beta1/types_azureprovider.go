@@ -153,7 +153,7 @@ type AzureMachineProviderSpec struct {
 	// It is optional but may not be changed once set.
 	// +kubebuilder:validation:XValidation:rule="oldSelf == '' || self == oldSelf",message="CapacityReservationGroupID is immutable once set"
 	// +optional
-	CapacityReservationGroupID *string `json:"capacityReservationGroupID,omitempty"`
+	CapacityReservationGroupID string `json:"capacityReservationGroupID,omitempty"`
 }
 
 // SpotVMOptions defines the options relevant to running the Machine on Spot VMs
