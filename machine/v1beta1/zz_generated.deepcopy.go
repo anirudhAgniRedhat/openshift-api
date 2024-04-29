@@ -314,11 +314,6 @@ func (in *AzureMachineProviderSpec) DeepCopyInto(out *AzureMachineProviderSpec) 
 		(*in).DeepCopyInto(*out)
 	}
 	in.Diagnostics.DeepCopyInto(&out.Diagnostics)
-	if in.CapacityReservationGroupID != nil {
-		in, out := &in.CapacityReservationGroupID, &out.CapacityReservationGroupID
-		*out = new(string)
-		**out = **in
-	}
 	return
 }
 
